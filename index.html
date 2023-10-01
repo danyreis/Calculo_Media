@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Média</title>
+</head>
+<body>
+    <h1>Cálculo de média</h1>
+
+    <fieldset>
+    <div>
+    <label for="nota1"><b>Nota 1:</b></label>
+    <input id="nota1" type="number" placeholder="Digite a primeira nota"><br>
+    </div>    
+    <label for="nota2"><b>Nota 2: </b></label>
+    <input id="nota2" type="number" placeholder="Digite a segunda nota"><br>
+
+    <label for="nota3"><b>Nota 3: </b></label>
+    <input id="nota3" type="number" placeholder="Digite a terceira nota"><br><br>
+
+    <button id="calcular" type="submit" onclick="CalcularMedia()"><b>Calcular</b></button><br><br>
+    
+    <b>Situação: </b><div id="situacao"></div><br>
+    <b>Media: </b><div id="media"></div><br>
+    
+    <button id="limpar" type="reset" onclick="Limpar()"><b>Limpar</b></button><br>
+    </fieldset>
+    <script src="script.js"></script>
+
+</body>
+</html>

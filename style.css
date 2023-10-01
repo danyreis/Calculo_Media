@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+    background-color:#FFFAFA;
+}
+
+h1{
+    text-align: center;
+    background-color: #808080;
+}
+#calcular{
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+#calcular:hover{
+    opacity: 0.2s;
+    background-color:#C0C0C0;
+}
+#calcular:active{
+    opacity: 2s;
+    background: #4F4F4F;
+}
+#limpar{
+    border-radius: 20px;
+    padding: 5px;
+}
+#nota1, #nota2, #nota3{
+    
+    width: 15%;
+    height: 25px;        
+    border-radius: 20px;
+    border: 1px solid #ccc;   
+}
